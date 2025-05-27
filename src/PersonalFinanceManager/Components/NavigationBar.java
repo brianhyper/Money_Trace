@@ -21,7 +21,13 @@ public class NavigationBar extends JPanel {
         this.parentFrame = parentFrame;
         this.navItems = new ArrayList<>();
 
-        setPreferredSize(new Dimension(80, 0));
+        // Set both preferred and minimum size to ensure visibility
+        setPreferredSize(new Dimension(80, parentFrame.getHeight()));
+        setMinimumSize(new Dimension(80, parentFrame.getHeight()));
+        
+        // Make sure the panel is visible and opaque
+        setVisible(true);
+        setOpaque(true);
         setBackground(new Color(15, 20, 25));
         setLayout(new BorderLayout());
 

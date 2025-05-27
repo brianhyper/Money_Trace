@@ -136,7 +136,7 @@ public class DashboardPanel extends JPanel {
         thisMonthBtn.setFocusPainted(false);
         thisMonthBtn.setCursor(new Cursor(Cursor.HAND_CURSOR));
         // Null-safe icon loading
-        URL calendarIconUrl = getClass().getResource("/PersonalFinanceManager/Resources/icons/calendar_icon.png");
+        URL calendarIconUrl = getClass().getResource("/PersonalFinanceManager/Resources/icons/calendar.png");
         if (calendarIconUrl != null) {
             thisMonthBtn.setIcon(new ImageIcon(calendarIconUrl));
         } else {
