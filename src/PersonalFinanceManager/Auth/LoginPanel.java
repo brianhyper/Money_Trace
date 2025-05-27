@@ -41,7 +41,7 @@ public class LoginPanel extends JPanel {
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
         // Header with icon
-        ImageIcon lockIcon = new ImageIcon(getClass().getResource("/Resources/icons/lock_icon.png"));
+        ImageIcon lockIcon = new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/lock_icon.png"));
         JLabel iconLabel = new JLabel(lockIcon);
         iconLabel.setHorizontalAlignment(JLabel.CENTER);
         gbc.insets = new Insets(30, 25, 10, 25);
@@ -148,7 +148,7 @@ public class LoginPanel extends JPanel {
         contentPanel.add(mainContainer);
         add(contentPanel, BorderLayout.CENTER);
 
-        // Allow Enter key to submit
+        // Allow the Enter key to submit
         getRootPane().setDefaultButton(loginButton);
     }
 
@@ -233,4 +233,4 @@ public class LoginPanel extends JPanel {
         parentFrame.revalidate();
         parentFrame.repaint();
     }
-}
+    }

@@ -32,7 +32,7 @@ public class Main {
             frame.setLocationRelativeTo(null);
 
             // Set app icon
-            ImageIcon icon = new ImageIcon(Main.class.getResource("Resources/icons/app_icon.png"));
+            ImageIcon icon = new ImageIcon(Main.class.getResource("/PersonalFinanceManager/Resources/icons/app_icon.png"));
             frame.setIconImage(icon.getImage());
 
             // Load welcome screen

@@ -41,7 +41,7 @@ public class WelcomeScreen extends JPanel {
         gbc.insets = new Insets(15, 25, 15, 25);
 
         // App logo/icon
-        ImageIcon logoIcon = new ImageIcon(getClass().getResource("/Resources/icons/app_logo.png"));
+        ImageIcon logoIcon = new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/app_logo.png"));
         JLabel logoLabel = new JLabel(logoIcon);
         logoLabel.setHorizontalAlignment(JLabel.CENTER);
         gbc.insets = new Insets(30, 25, 20, 25);
