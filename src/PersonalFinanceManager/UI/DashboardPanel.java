@@ -134,7 +134,7 @@ public class DashboardPanel extends JPanel {
         thisMonthBtn.setBorderPainted(false);
         thisMonthBtn.setFocusPainted(false);
         thisMonthBtn.setCursor(new Cursor(Cursor.HAND_CURSOR));
-        thisMonthBtn.setIcon(new ImageIcon(getClass().getResource("/Resources/icons/calendar.png")));
+        thisMonthBtn.setIcon(new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/calendar.png")));
 
         // Add date and time refresh
         dateLabel = new JLabel(DateUtils.getCurrentFormattedDate());
@@ -248,11 +248,11 @@ public class DashboardPanel extends JPanel {
         // Set icon based on panel type
         ImageIcon icon;
         if (title.contains("Income")) {
-            icon = new ImageIcon(getClass().getResource("/Resources/icons/income_icon.png"));
+            icon = new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/income_icon.png"));
         } else if (title.contains("Expenses")) {
-            icon = new ImageIcon(getClass().getResource("/Resources/icons/expense_icon.png"));
+            icon = new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/expense_icon.png"));
         } else {
-            icon = new ImageIcon(getClass().getResource("/Resources/icons/wallet_icon.png"));
+            icon = new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/wallet_icon.png"));
         }
         iconLabel.setIcon(icon);
 
@@ -301,16 +301,16 @@ public class DashboardPanel extends JPanel {
         String iconPath;
         switch (category.toLowerCase()) {
             case "other":
-                iconPath = "/Resources/icons/other_icon.png";
+                iconPath = "/PersonalFinanceManager/Resources/icons/other_icon.png";
                 break;
             case "creditcard":
-                iconPath = "/Resources/icons/credit_card_icon.png";
+                iconPath = "/PersonalFinanceManager/Resources/icons/credit_card_icon.png";
                 break;
             case "kids":
-                iconPath = "/Resources/icons/kids_icon.png";
+                iconPath = "/PersonalFinanceManager/Resources/icons/kids_icon.png";
                 break;
             default:
-                iconPath = "/Resources/icons/default_icon.png";
+                iconPath = "/PersonalFinanceManager/Resources/icons/default_icon.png";
         }
 
         return new ImageIcon(getClass().getResource(iconPath));

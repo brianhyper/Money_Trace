@@ -148,8 +148,19 @@ public class LoginPanel extends JPanel {
         contentPanel.add(mainContainer);
         add(contentPanel, BorderLayout.CENTER);
 
-        // Allow the Enter key to submit
-        getRootPane().setDefaultButton(loginButton);
+        // Do NOT call getRootPane() here!
+
+        // The default button will be set in addNotify(), after the panel is attached to a root pane.
+    }
+
+    @Override
+    public void addNotify() {
+        super.addNotify();
+        // Now the panel is attached to a hierarchy, so getRootPane() is safe
+        JRootPane rootPane = getRootPane();
+        if (rootPane != null) {
+            rootPane.setDefaultButton(loginButton);
+        }
     }
 
     private void customizeTextField(JTextField textField) {
@@ -233,4 +244,4 @@ public class LoginPanel extends JPanel {
         parentFrame.revalidate();
         parentFrame.repaint();
     }
-    }
+}

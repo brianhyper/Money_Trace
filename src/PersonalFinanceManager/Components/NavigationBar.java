@@ -26,7 +26,7 @@ public class NavigationBar extends JPanel {
         setLayout(new BorderLayout());
 
         // App logo at top
-        JLabel logoLabel = new JLabel(new ImageIcon(getClass().getResource("/Resources/icons/app_logo_small.png")));
+        JLabel logoLabel = new JLabel(new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/app_logo_small.png")));
         logoLabel.setHorizontalAlignment(JLabel.CENTER);
         logoLabel.setBorder(BorderFactory.createEmptyBorder(20, 0, 30, 0));
         add(logoLabel, BorderLayout.NORTH);
@@ -37,12 +37,12 @@ public class NavigationBar extends JPanel {
         navPanel.setBorder(BorderFactory.createEmptyBorder(20, 0, 20, 0));
 
         // Add nav items
-        addNavItem(navPanel, "Dashboard", "/Resources/icons/dashboard_icon.png", DashboardPanel.class);
-        addNavItem(navPanel, "Calendar", "/Resources/icons/calendar_icon.png", CalendarPanel.class);
-        addNavItem(navPanel, "Accounts", "/Resources/icons/accounts_icon.png", AccountsPanel.class);
-        addNavItem(navPanel, "Budget", "/Resources/icons/budget_icon.png", BudgetPanel.class);
-        addNavItem(navPanel, "Debt", "/Resources/icons/debt_icon.png", DebtPanel.class);
-        addNavItem(navPanel, "Settings", "/Resources/icons/settings_icon.png", SettingsPanel.class);
+        addNavItem(navPanel, "Dashboard", "/PersonalFinanceManager/Resources/icons/dashboard_icon.png", DashboardPanel.class);
+        addNavItem(navPanel, "Calendar", "/PersonalFinanceManager/Resources/icons/calendar_icon.png", CalendarPanel.class);
+        addNavItem(navPanel, "Accounts", "/PersonalFinanceManager/Resources/icons/accounts_icon.png", AccountsPanel.class);
+        addNavItem(navPanel, "Budget", "/PersonalFinanceManager/Resources/icons/budget_icon.png", BudgetPanel.class);
+        addNavItem(navPanel, "Debt", "/PersonalFinanceManager/Resources/icons/debt_icon.png", DebtPanel.class);
+        addNavItem(navPanel, "Settings", "/PersonalFinanceManager/Resources/icons/settings_icon.png", SettingsPanel.class);
 
         JPanel navCenterWrapper = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
         navCenterWrapper.setOpaque(false);

@@ -5,7 +5,6 @@ import PersonalFinanceManager.Components.GlassBox;
 import PersonalFinanceManager.Models.User;
 import PersonalFinanceManager.Utils.FileManager;
 import PersonalFinanceManager.Utils.NotificationManager;
-import PersonalFinanceManager.Auth.LoginPanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -82,7 +81,8 @@ public class SignupPanel extends JPanel {
             NotificationManager.notifyError("Passwords do not match.");
             return;
         }
-        User user = new User(username, String.valueOf(password.hashCode()),"The email will come later");
+        // FIX: Pass the raw password, not password.hashCode()
+        User user = new User(username, password, "The email will come later");
         boolean success = FileManager.saveUser(user);
         if (success) {
             NotificationManager.notifyInfo("Registration successful! Please log in.");
@@ -99,4 +99,3 @@ public class SignupPanel extends JPanel {
         parentFrame.repaint();
     }
 }
-
