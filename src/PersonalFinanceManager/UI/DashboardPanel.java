@@ -12,6 +12,7 @@ import java.awt.*;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Locale;
+import java.net.URL;
 
 public class DashboardPanel extends JPanel {
     private final JFrame parentFrame;
@@ -134,7 +135,13 @@ public class DashboardPanel extends JPanel {
         thisMonthBtn.setBorderPainted(false);
         thisMonthBtn.setFocusPainted(false);
         thisMonthBtn.setCursor(new Cursor(Cursor.HAND_CURSOR));
-        thisMonthBtn.setIcon(new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/calendar.png")));
+        // Null-safe icon loading
+        URL calendarIconUrl = getClass().getResource("/PersonalFinanceManager/Resources/icons/calendar_icon.png");
+        if (calendarIconUrl != null) {
+            thisMonthBtn.setIcon(new ImageIcon(calendarIconUrl));
+        } else {
+            System.err.println("Missing resource: /PersonalFinanceManager/Resources/icons/calendar.png");
+        }
 
         // Add date and time refresh
         dateLabel = new JLabel(DateUtils.getCurrentFormattedDate());
@@ -184,7 +191,11 @@ public class DashboardPanel extends JPanel {
         // Add icon based on category
         JLabel iconLabel = new JLabel();
         ImageIcon icon = getIconForCategory(transaction.getCategory());
-        iconLabel.setIcon(icon);
+        if (icon != null) {
+            iconLabel.setIcon(icon);
+        } else {
+            iconLabel.setText("No icon");
+        }
         topPanel.add(iconLabel, BorderLayout.WEST);
 
         JPanel categoryPanel = new JPanel(new BorderLayout());
@@ -246,15 +257,23 @@ public class DashboardPanel extends JPanel {
         iconLabel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         // Set icon based on panel type
-        ImageIcon icon;
+        ImageIcon icon = null;
+        String iconPath = null;
         if (title.contains("Income")) {
-            icon = new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/income_icon.png"));
+            iconPath = "/PersonalFinanceManager/Resources/icons/income_icon.png";
         } else if (title.contains("Expenses")) {
-            icon = new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/expense_icon.png"));
+            iconPath = "/PersonalFinanceManager/Resources/icons/expense_icon.png";
         } else {
-            icon = new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/wallet_icon.png"));
+            iconPath = "/PersonalFinanceManager/Resources/icons/wallet_icon.png";
         }
-        iconLabel.setIcon(icon);
+        URL iconUrl = getClass().getResource(iconPath);
+        if (iconUrl != null) {
+            icon = new ImageIcon(iconUrl);
+            iconLabel.setIcon(icon);
+        } else {
+            iconLabel.setText("No icon");
+            System.err.println("Missing resource: " + iconPath);
+        }
 
         // Round the corners of the icon background
         iconLabel.setBorder(BorderFactory.createEmptyBorder());
@@ -313,6 +332,12 @@ public class DashboardPanel extends JPanel {
                 iconPath = "/PersonalFinanceManager/Resources/icons/default_icon.png";
         }
 
-        return new ImageIcon(getClass().getResource(iconPath));
+        URL iconUrl = getClass().getResource(iconPath);
+        if (iconUrl != null) {
+            return new ImageIcon(iconUrl);
+        } else {
+            System.err.println("Missing resource: " + iconPath);
+            return null;
+        }
     }
 }
