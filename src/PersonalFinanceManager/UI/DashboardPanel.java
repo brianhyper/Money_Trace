@@ -19,20 +19,19 @@ public class DashboardPanel extends JPanel {
     private final NavigationBar navigationBar;
     private JLabel dateLabel;
     private final GraphComponent graphComponent;
+    private ArrayList<Transaction> upcomingTransactions;
 
     // Sample data (to be replaced with actual data loading)
     private double totalIncome = 9467.20;
     private double totalExpenses = 8645.15;
     private double netIncome = 822.05;
 
-    private ArrayList<Transaction> upcomingTransactions;
-
     public DashboardPanel(JFrame parentFrame) {
         this.parentFrame = parentFrame;
         setLayout(new BorderLayout());
         setBackground(AppTheme.getBackgroundColor());
 
-        // Initialize navigation
+        // Initialize navigation bar (visible only on this panel)
         navigationBar = new NavigationBar(parentFrame);
         add(navigationBar, BorderLayout.WEST);
 
@@ -136,7 +135,7 @@ public class DashboardPanel extends JPanel {
         thisMonthBtn.setFocusPainted(false);
         thisMonthBtn.setCursor(new Cursor(Cursor.HAND_CURSOR));
         // Null-safe icon loading
-        URL calendarIconUrl = getClass().getResource("/PersonalFinanceManager/Resources/icons/calendar.png");
+        URL calendarIconUrl = getClass().getResource("src/PersonalFinanceManager/Resources/icons/calendar.png");
         if (calendarIconUrl != null) {
             thisMonthBtn.setIcon(new ImageIcon(calendarIconUrl));
         } else {

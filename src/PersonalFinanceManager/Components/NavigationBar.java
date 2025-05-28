@@ -21,13 +21,7 @@ public class NavigationBar extends JPanel {
         this.parentFrame = parentFrame;
         this.navItems = new ArrayList<>();
 
-        // Set both preferred and minimum size to ensure visibility
-        setPreferredSize(new Dimension(80, parentFrame.getHeight()));
-        setMinimumSize(new Dimension(80, parentFrame.getHeight()));
-        
-        // Make sure the panel is visible and opaque
-        setVisible(true);
-        setOpaque(true);
+        setPreferredSize(new Dimension(80, 0));
         setBackground(new Color(15, 20, 25));
         setLayout(new BorderLayout());
 
@@ -132,8 +126,14 @@ public class NavigationBar extends JPanel {
             selectionIndicator.setVisible(false);
             add(selectionIndicator, BorderLayout.WEST);
 
-            // Icon
-            iconLabel = new JLabel(new ImageIcon(getClass().getResource(iconPath)));
+            // Icon (with null check)
+            java.net.URL iconUrl = getClass().getResource(iconPath);
+            if (iconUrl != null) {
+                iconLabel = new JLabel(new ImageIcon(iconUrl));
+            } else {
+                iconLabel = new JLabel(); // blank or you can set text
+                System.err.println("Missing resource: " + iconPath);
+            }
             iconLabel.setHorizontalAlignment(JLabel.CENTER);
             add(iconLabel, BorderLayout.CENTER);
 
