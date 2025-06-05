@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8cec725b-b2eb-46bf-ac2e-090b915b4adc" name="Changes" comment="2nd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$NavItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$NavItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/calendar_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/DashboardPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/DashboardPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/NavigationBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/DashboardPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/DashboardPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,48 +15,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "brianhyper"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;brianhyper&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/brianhyper/Money_Trace.git",
-    "accountId": "472e9757-6b97-4d2d-b097-1ccb0d0d2d6d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/brianhyper/Money_Trace.git&quot;,
+    &quot;accountId&quot;: &quot;472e9757-6b97-4d2d-b097-1ccb0d0d2d6d&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2xggK4LRFnbnkJ0yuJbvXnPqHzf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bmiga/IdeaProjects/Money_Trace",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bmiga/IdeaProjects/Money_Trace&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -83,6 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1748365068232</updated>
       <workItem from="1748365072621" duration="9216000" />
+      <workItem from="1748417251911" duration="956000" />
+      <workItem from="1748497698969" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="2nd">
       <option name="closed" value="true" />
@@ -132,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748373599899</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2nd">
+      <option name="closed" value="true" />
+      <created>1748417730497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748417730497</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
