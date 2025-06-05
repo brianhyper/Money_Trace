@@ -20,18 +20,18 @@ public class GraphComponent extends GlassBox {
         setTitle("Financial Trends");
         setPreferredSize(new Dimension(0, 300));
 
-        // Sample data for demonstration
+        // eg data
         initializeSampleData();
     }
 
     private void initializeSampleData() {
-        // Create some sample data points
+        // sample data points
         incomeData = new ArrayList<>();
         expenseData = new ArrayList<>();
         balanceData = new ArrayList<>();
         labels = new ArrayList<>();
 
-        // Add sample values (these would normally be loaded from data)
+        // sample values
         String[] months = {"Jan", "Feb", "Mar", "Apr", "May", "Jun"};
         double[] income = {7500, 7800, 8200, 8600, 9000, 9467};
         double[] expenses = {6800, 7200, 7600, 8100, 8300, 8645};
@@ -63,6 +63,8 @@ public class GraphComponent extends GlassBox {
         Graphics2D g2d = (Graphics2D) g.create();
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
+        //eeh mylawd kusemma tu ukweli hii sijui
+
         // Graph dimensions
         int padding = 50;
         int labelPadding = 30;
@@ -72,7 +74,7 @@ public class GraphComponent extends GlassBox {
         int width = getWidth() - padding - rightPadding;
         int height = getHeight() - padding - labelPadding;
 
-        // Draw graph area background (optional)
+        // Draw graph area background
         g2d.setColor(new Color(30, 35, 42, 120));
         g2d.fillRoundRect(padding, padding, width, height, 10, 10);
 

@@ -9,6 +9,8 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
+//not implemented yet😥
+
 public class BudgetPanel extends JPanel {
     private List<Budget> budgets;
 
@@ -24,12 +26,12 @@ public class BudgetPanel extends JPanel {
         topBar.add(title);
         add(topBar, BorderLayout.NORTH);
 
-        // Sample data
+        // some data
         budgets = new ArrayList<>();
         long now = System.currentTimeMillis();
         long month = 2592000000L; // 30 days in ms
         budgets.add(new Budget("Food", 500, now, now + month, ""));
-        budgets.get(0).setSpent(550); // Exceeded
+        budgets.get(0).setSpent(550); // ikiexceeded
         budgets.add(new Budget("Transport", 200, now, now + month, ""));
         budgets.get(1).setSpent(120);
         budgets.add(new Budget("Entertainment", 150, now, now + month, ""));

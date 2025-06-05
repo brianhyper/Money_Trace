@@ -81,14 +81,14 @@ public class SignupPanel extends JPanel {
             NotificationManager.notifyError("Passwords do not match.");
             return;
         }
-        // FIX: Pass the raw password, not password.hashCode()
+        // FIX: Pass the raw password, not password.hashCode() (the fixes juu hash ilikataa manze)
         User user = new User(username, password, "The email will come later");
         boolean success = FileManager.saveUser(user);
         if (success) {
             NotificationManager.notifyInfo("Registration successful! Please log in.");
             goToLogin();
         } else {
-            NotificationManager.notifyError("Username already exists.");
+            NotificationManager.notifyError("Username already exists."); //ama niweke ile ya nani ashachukua . walai nachizi sasa
         }
     }
 

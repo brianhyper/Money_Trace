@@ -45,7 +45,7 @@ public class User implements Serializable {
             return Base64.getEncoder().encodeToString(hash);
         } catch (Exception e) {
             e.printStackTrace();
-            // Fallback to plain password if hashing fails
+            // Fallback to plain password if hashing fails( gave me crazy bugs before i realized this solution)
             return password;
         }
     }

@@ -18,7 +18,7 @@ public class Transaction implements Serializable {
         this.category = category;
         this.amount = amount;
         this.date = date;
-        this.isIncome = false; // Default to expense
+        this.isIncome = false;
         this.isRecurring = false;
         this.recurringPeriod = 0;
     }
@@ -85,3 +85,7 @@ public class Transaction implements Serializable {
         return description + " - " + (isIncome ? "+" : "-") + amount + " (" + category + ")";
     }
 }
+/* i knew what i was writing before
+rn sijui shiit
+
+ */

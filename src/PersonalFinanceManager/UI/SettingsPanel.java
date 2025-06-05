@@ -6,7 +6,7 @@ import PersonalFinanceManager.Utils.NotificationManager;
 
 import javax.swing.*;
 import java.awt.*;
-
+ //not implemented yet😥
 public class SettingsPanel extends JPanel {
     public SettingsPanel(JFrame parentFrame) {
         setLayout(new BorderLayout());

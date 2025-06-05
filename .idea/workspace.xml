@@ -6,48 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="8cec725b-b2eb-46bf-ac2e-090b915b4adc" name="Changes" comment="2nd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/AppTheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/AuthManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/SignupPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/GlassBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/GraphComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$NavItem$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$NavItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/ToggleMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Models/Budget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Models/Debt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Models/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/accounts_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/app_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/app_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/app_logo_small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/dashboard_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/debt_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/settings_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/AccountsPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/BudgetPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/CalendarPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/DashboardPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/DebtPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/SettingsPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen$FadePanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Utils/DateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Utils/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Utils/NotificationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceManagerData/users.dat" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceManagerData/users.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/AppTheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/AppTheme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Auth/AuthManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Auth/AuthManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Auth/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Auth/LoginPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Auth/SignupPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Auth/SignupPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/GlassBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/GlassBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/GraphComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/GraphComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/NavigationBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/ToggleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Components/ToggleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Models/Budget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Models/Budget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Models/Debt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Models/Debt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Models/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Models/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Resources/icons/app_logo_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Resources/icons/app_logo_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Resources/icons/calender_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/AccountsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/AccountsPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/BudgetPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/BudgetPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/CalendarPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/CalendarPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/DashboardPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/DashboardPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/DebtPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/DebtPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/SettingsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/SettingsPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/WelcomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/UI/WelcomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Utils/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Utils/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinanceManager/Utils/NotificationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalFinanceManager/Utils/NotificationManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +104,7 @@
       <workItem from="1748365072621" duration="9216000" />
       <workItem from="1748417251911" duration="956000" />
       <workItem from="1748497698969" duration="615000" />
-      <workItem from="1749137534896" duration="674000" />
+      <workItem from="1749137534896" duration="3968000" />
     </task>
     <task id="LOCAL-00001" summary="2nd">
       <option name="closed" value="true" />
@@ -186,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749137604592</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2nd">
+      <option name="closed" value="true" />
+      <created>1749138421527</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749138421527</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

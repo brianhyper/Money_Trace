@@ -7,7 +7,7 @@ import PersonalFinanceManager.Models.Debt;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
-
+//not implemented yet😥
 public class DebtPanel extends JPanel {
 
     public DebtPanel(JFrame parentFrame) {
@@ -32,8 +32,8 @@ public class DebtPanel extends JPanel {
         mainContentPanel.setLayout(new BoxLayout(mainContentPanel, BoxLayout.Y_AXIS));
         mainContentPanel.setBorder(new EmptyBorder(10, 20, 20, 20));
 
-        // Example Debt (replace with actual data)
-        Debt sampleDebt = new Debt("Car Loan", 15000, false, "Bank of America");
+        // debts
+        Debt sampleDebt = new Debt("School Loan", 150000, false, "Cooperative bank");
         mainContentPanel.add(createDebtCard(sampleDebt));
 
         JScrollPane scrollPane = new JScrollPane(mainContentPanel);
@@ -41,7 +41,7 @@ public class DebtPanel extends JPanel {
         scrollPane.getViewport().setOpaque(false);
         add(scrollPane, BorderLayout.CENTER);
 
-        // Footer: Add Debt Button
+        // Footer
         JPanel footerPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
         footerPanel.setOpaque(false);
         footerPanel.setBorder(new EmptyBorder(0, 20, 20, 20));

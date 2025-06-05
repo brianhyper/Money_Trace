@@ -8,7 +8,7 @@ import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Set system look and feel with dark mode support
+        // dark mode
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (Exception e) {
@@ -18,13 +18,13 @@ public class Main {
         // Initialize file system
         FileManager.initializeStorage();
 
-        // Set custom UI properties for modern look
+        // more modern look
         UIManager.put("Button.arc", 15);
         UIManager.put("Component.arc", 15);
         UIManager.put("ProgressBar.arc", 15);
         UIManager.put("TextComponent.arc", 15);
 
-        // Launch app with splash effect
+        // Launch app with splash effect (writing effect) idk
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Personal Finance Manager");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

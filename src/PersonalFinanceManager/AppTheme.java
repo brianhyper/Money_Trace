@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class AppTheme {
-    // Modern color palette
+    // 😂😂😂😂Dark theme color palette
     public static final Color BACKGROUND_DARK = new Color(13, 17, 23);
     public static final Color CARD_DARK = new Color(22, 27, 34, 220);
     public static final Color TEXT_PRIMARY = new Color(255, 255, 255);

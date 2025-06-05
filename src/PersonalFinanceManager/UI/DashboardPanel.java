@@ -139,7 +139,7 @@ public class DashboardPanel extends JPanel {
         if (calendarIconUrl != null) {
             thisMonthBtn.setIcon(new ImageIcon(calendarIconUrl));
         } else {
-            System.err.println("Missing resource: /PersonalFinanceManager/Resources/icons/calendar.png");
+            System.err.println("Missing calendar.png na ni ya dashboard");
         }
 
         // Add date and time refresh

@@ -29,7 +29,7 @@ public class WelcomeScreen extends JPanel {
         JPanel contentPanel = new JPanel(new GridBagLayout());
         contentPanel.setOpaque(false);
 
-        // Main glass container
+        // Main glass container(contains the logo na the words)
         GlassBox mainContainer = new GlassBox(20);
         mainContainer.setPreferredSize(new Dimension(600, 400));
         mainContainer.setLayout(new GridBagLayout());
@@ -40,14 +40,14 @@ public class WelcomeScreen extends JPanel {
         gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.insets = new Insets(15, 25, 15, 25);
 
-        // App logo/icon
+        // App logo
         ImageIcon logoIcon = new ImageIcon(getClass().getResource("/PersonalFinanceManager/Resources/icons/app_logo.png"));
         JLabel logoLabel = new JLabel(logoIcon);
         logoLabel.setHorizontalAlignment(JLabel.CENTER);
         gbc.insets = new Insets(30, 25, 20, 25);
         mainContainer.add(logoLabel, gbc);
 
-        // Title with typing effect
+        // typing effect
         titleLabel = new JLabel("");
         titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 28));
         titleLabel.setForeground(AppTheme.getTextColor());
@@ -85,7 +85,7 @@ public class WelcomeScreen extends JPanel {
         contentPanel.add(mainContainer);
         add(contentPanel, BorderLayout.CENTER);
 
-        // Typing animation
+        // Typing animation ( eeh really gave me headaches before it worked)
         typingTimer = new Timer(50, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

@@ -22,7 +22,7 @@ public class FileManager {
 
     public static void initializeStorage() {
         try {
-            // Create data directory if it doesn't exist
+            // Create data directory if it doesn't exist( after realizing the directory couldn't be found )
             Files.createDirectories(Paths.get(DATA_DIR));
         } catch (IOException e) {
             e.printStackTrace();
@@ -36,7 +36,7 @@ public class FileManager {
         // Check if user already exists
         for (int i = 0; i < users.size(); i++) {
             if (users.get(i).getUsername().equals(user.getUsername())) {
-                // Update existing user
+                // Update existing user (not full implemented thou)
                 users.set(i, user);
                 return saveAllUsers(users);
             }

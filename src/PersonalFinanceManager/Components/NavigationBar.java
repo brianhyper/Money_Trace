@@ -38,7 +38,7 @@ public class NavigationBar extends JPanel {
 
         // Add nav items
         addNavItem(navPanel, "Dashboard", "/PersonalFinanceManager/Resources/icons/dashboard_icon.png", DashboardPanel.class);
-        addNavItem(navPanel, "Calendar", "/PersonalFinanceManager/Resources/icons/calendar_icon.png", CalendarPanel.class);
+        addNavItem(navPanel, "Calendar", "/PersonalFinanceManager/Resources/icons/calendar.png", CalendarPanel.class);
         addNavItem(navPanel, "Accounts", "/PersonalFinanceManager/Resources/icons/accounts_icon.png", AccountsPanel.class);
         addNavItem(navPanel, "Budget", "/PersonalFinanceManager/Resources/icons/budget_icon.png", BudgetPanel.class);
         addNavItem(navPanel, "Debt", "/PersonalFinanceManager/Resources/icons/debt_icon.png", DebtPanel.class);
@@ -53,7 +53,7 @@ public class NavigationBar extends JPanel {
         // Select first item by default
         setSelectedIndex(0);
     }
-
+// from here thing are not working manzee😥
     private void addNavItem(JPanel container, String name, String iconPath, Class<? extends JPanel> panelClass) {
         NavItem item = new NavItem(name, iconPath, panelClass);
         navItems.add(item);

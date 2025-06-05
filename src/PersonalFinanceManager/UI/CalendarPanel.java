@@ -9,6 +9,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.List;
 
+//not implemented yet😥
+
 public class CalendarPanel extends JPanel {
     public CalendarPanel(JFrame parentFrame) {
         setLayout(new BorderLayout());
@@ -19,7 +21,8 @@ public class CalendarPanel extends JPanel {
         title.setForeground(AppTheme.getTextColor());
         add(title, BorderLayout.NORTH);
 
-        // Placeholder: Use a calendar component or custom calendar
+        // Placeholder
+
         JPanel calendarBox = new GlassBox(20);
         calendarBox.setPreferredSize(new Dimension(600, 400));
         calendarBox.setLayout(new BorderLayout());
@@ -29,7 +32,7 @@ public class CalendarPanel extends JPanel {
 
         add(calendarBox, BorderLayout.CENTER);
 
-        // Below calendar: summary and upcoming
+        // summary and upcoming
         JPanel bottomPanel = new JPanel(new GridLayout(1, 2, 20, 0));
         bottomPanel.setOpaque(false);
 

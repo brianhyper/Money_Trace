@@ -8,6 +8,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.List;
 
+//not implemented yet😥
+
 public class AccountsPanel extends JPanel {
     public AccountsPanel(JFrame parentFrame) {
         setLayout(new BorderLayout());

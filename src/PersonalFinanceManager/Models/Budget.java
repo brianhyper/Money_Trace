@@ -44,7 +44,7 @@ public class Budget implements Serializable {
 
     public double getSpentPercentage() { return (spent / limit) * 100; }
 
-    // Add this method for your UI logic!
+    // rememberto add this mf to logic
     public boolean isExceeded() {
         return spent > limit;
     }

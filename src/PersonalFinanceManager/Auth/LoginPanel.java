@@ -26,16 +26,16 @@ public class LoginPanel extends JPanel {
         setLayout(new BorderLayout());
         setBackground(AppTheme.getBackgroundColor());
 
-        // Create centered content panel
+        // centered content panel
         JPanel contentPanel = new JPanel(new GridBagLayout());
         contentPanel.setOpaque(false);
 
-        // Create main glass container
+        // main container
         GlassBox mainContainer = new GlassBox(20);
         mainContainer.setPreferredSize(new Dimension(500, 400));
         mainContainer.setLayout(new GridBagLayout());
 
-        // Configure GridBagConstraints
+        // Configure GridBagCo.
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.gridwidth = GridBagConstraints.REMAINDER;
         gbc.fill = GridBagConstraints.HORIZONTAL;
@@ -55,7 +55,7 @@ public class LoginPanel extends JPanel {
         gbc.insets = new Insets(10, 25, 30, 25);
         mainContainer.add(titleLabel, gbc);
 
-        // Error message (initially hidden)
+        // Error message
         errorLabel = new JLabel("");
         errorLabel.setFont(new Font("Segoe UI", Font.BOLD, 14));
         errorLabel.setForeground(AppTheme.EXPENSE_RED);
@@ -64,7 +64,7 @@ public class LoginPanel extends JPanel {
         gbc.insets = new Insets(0, 25, 15, 25);
         mainContainer.add(errorLabel, gbc);
 
-        // Username field
+        // Username field box
         JLabel usernameLabel = new JLabel("Username");
         usernameLabel.setFont(new Font("Segoe UI", Font.PLAIN, 14));
         usernameLabel.setForeground(AppTheme.getTextColor());
@@ -78,7 +78,7 @@ public class LoginPanel extends JPanel {
         gbc.insets = new Insets(0, 50, 20, 50);
         mainContainer.add(usernameField, gbc);
 
-        // Password field
+        // Password field box
         JLabel passwordLabel = new JLabel("Password");
         passwordLabel.setFont(new Font("Segoe UI", Font.PLAIN, 14));
         passwordLabel.setForeground(AppTheme.getTextColor());
@@ -102,7 +102,7 @@ public class LoginPanel extends JPanel {
         loginButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
         loginButton.setPreferredSize(new Dimension(0, 50));
 
-        // Add hover effect
+        // hover effect
         loginButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 loginButton.setBackground(AppTheme.ACCENT_BLUE.brighter());
@@ -113,7 +113,7 @@ public class LoginPanel extends JPanel {
             }
         });
 
-        // Add action
+        // action
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -144,11 +144,11 @@ public class LoginPanel extends JPanel {
         gbc.insets = new Insets(0, 50, 30, 50);
         mainContainer.add(backButton, gbc);
 
-        // Add main container to content panel
+        // main container to content panel
         contentPanel.add(mainContainer);
         add(contentPanel, BorderLayout.CENTER);
 
-        // Do NOT call getRootPane() here!
+        // 😬🤬Do NOT call getRootPane() here!
 
         // The default button will be set in addNotify(), after the panel is attached to a root pane.
     }
@@ -210,7 +210,7 @@ public class LoginPanel extends JPanel {
         errorLabel.setText(message);
         errorLabel.setVisible(true);
 
-        // Create "shake" animation for error
+        // "shake" animation for error
         final int originalX = getX();
         final Timer timer = new Timer(30, null);
         final int[] direction = {1};
