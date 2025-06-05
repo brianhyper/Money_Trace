@@ -6,6 +6,48 @@
   <component name="ChangeListManager">
     <list default="true" id="8cec725b-b2eb-46bf-ac2e-090b915b4adc" name="Changes" comment="2nd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/AppTheme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/AuthManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/LoginPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Auth/SignupPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/GlassBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/GraphComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$NavItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar$NavItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/NavigationBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Components/ToggleMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Models/Budget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Models/Debt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Models/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/accounts_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/app_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/app_logo_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/dashboard_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/debt_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Resources/icons/settings_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/AccountsPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/BudgetPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/CalendarPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/DashboardPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/DebtPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/SettingsPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen$FadePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/UI/WelcomeScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Utils/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Utils/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Money_Trace/PersonalFinanceManager/Utils/NotificationManager.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +120,7 @@
       <workItem from="1748365072621" duration="9216000" />
       <workItem from="1748417251911" duration="956000" />
       <workItem from="1748497698969" duration="615000" />
+      <workItem from="1749137534896" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="2nd">
       <option name="closed" value="true" />
@@ -135,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748417730497</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2nd">
+      <option name="closed" value="true" />
+      <created>1749137604592</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749137604592</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
